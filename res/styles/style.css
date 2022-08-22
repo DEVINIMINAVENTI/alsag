@@ -1,0 +1,227 @@
+*{
+    margin: auto;
+}
+body{
+    width: 900px;
+    max-width: 1000px;
+    height: 600px;
+    position: relative;
+    display: block;
+    background-color: whitesmoke;
+}
+.pre{
+    height: 500px;
+}
+nav{
+    width: auto;
+    height: fit-content;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0px;
+    left: -40px;
+    right: 0px;
+}
+.logobar{
+    display: flex;
+    width: auto;
+    padding-top: 20px;
+}
+
+.logobar h1{
+    font-size: 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -80px;
+    width: 440px;
+    background-color: #2d2d2d;
+    padding: 10px;
+    padding-top: 5px;
+    user-select: none;
+    text-decoration: none;
+    border-radius: 15px;
+}
+span{
+    color: blue;
+}
+.navbar{
+    background-color: whitesmoke;
+    display: block;
+    list-style: none;
+    height: fit-content;
+
+    transition: all .10s ease;
+}
+.navbarbaa{
+    display: none;
+    width: auto;
+    transition: all .5s ease;
+}
+nav ul li{
+
+    width: auto;
+    padding-top: 20px;
+}
+nav ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+    font-size: 30px;
+    line-height: 60px;
+    width: auto;
+    height: 150px;
+    padding-left: 15px;
+    position: relative;
+    left: 20px;
+    border-left: 5px solid blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first{
+    position: relative;
+    top: 100px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.first ul{
+    display: block;
+    list-style: none;
+    position: relative;
+    left: -40px;
+    width: auto;
+}
+.first ul li{
+    width: 900px;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 400px;
+    text-align: center;
+    background-color: #2d2d2d;
+}
+.first ul li p a{
+    color: white;
+    font-size: 30px;    
+    word-spacing: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-family: cursive;
+}
+.image-update{
+    width: 900px;
+    height: 330px;
+}
+
+.nav-toggler{
+    height: 60px;
+    width: 44px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    right: -80px;
+    border: none;
+}
+.nav-toggler:focus{
+    outline: none;
+    box-shadow: 0 0 15px rgba(red, green, blue, alpha);
+}
+.nav-toggler span{
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.nav-toggler span::before,
+.nav-toggler span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.nav-toggler span::before{
+    transform: translateY(-15px);
+}
+.nav-toggler span::after{
+    transform: translateY(15px);   
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #2d2d2d;
+}
+.privacy h1{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.privacy p{
+    color: whitesmoke;
+    font-size: 10px;
+    padding: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.privacy h3{
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.privacy h4{
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.privacy ul{
+    position: relative;
+    left: -20px;
+    list-style: none;
+}
+.about ul{
+    position: relative;
+    left: -20px;
+    list-style: none;
+}
+
+.about h1{
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    font-family: cursive;
+}
+.about p{
+    color: whitesmoke;
+    font-size: 12px;
+    padding: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about p a{
+    color: green;
+}
+.postpics{
+    width: 600px;
+    text-align: justify;
+    margin: auto;
+}
+.postpicsa{
+    width: 800px;
+    text-align: justify;
+    margin: auto;
+    height: 600px;
+}
+footer p{
+    color: rgb(112, 112, 183);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 30px;
+}
